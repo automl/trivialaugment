@@ -1,0 +1,20 @@
+model:
+  type: wresnet40_2
+dataset: cifar10
+aug: randaugment
+randaug:
+  N: 0
+  M: 0    # from appendix
+cutout: 16
+batch: 128
+gpus: 1
+augmentation_search_space: uniaug
+epoch: 200
+lr: 0.1
+lr_schedule:
+  type: 'cosine'
+optimizer:
+  type: sgd
+  nesterov: True
+  decay: 0.0005
+

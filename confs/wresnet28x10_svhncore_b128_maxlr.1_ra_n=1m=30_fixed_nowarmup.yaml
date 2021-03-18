@@ -1,0 +1,18 @@
+model:
+  type: wresnet28_10
+dataset: svhncore
+aug: randaugment
+augmentation_search_space: fixed_standard
+randaug:
+  N: 1
+  M: 30    # from appendix
+cutout: 16
+batch: 128
+epoch: 200
+lr: 0.005
+lr_schedule:
+  type: 'cosine'
+optimizer:
+  type: sgd
+  nesterov: True
+  decay: 0.005

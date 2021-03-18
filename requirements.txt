@@ -1,0 +1,15 @@
+git+https://github.com/wbaek/theconf
+git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git
+git+https://github.com/ildoonet/pystopwatch2.git
+
+colored
+pretrainedmodels
+tqdm
+tensorboardx
+sklearn
+matplotlib
+psutil
+requests
+torch
+torchvision
+Pillow

@@ -1,0 +1,23 @@
+load_main_model: true
+model:
+  type: wresnet28_10
+dataset: svhn
+aug: randaugment
+augmentation_search_space: fixed_standard
+randaug:
+  N: 0
+  M: 0    # from appendix
+  weights: [0.0,1.0]
+cutout: 16
+batch: 128
+gpus: 1
+epoch: 160
+lr: 0.005
+lr_schedule:
+  type: 'cosine'
+
+optimizer:
+  type: sgd
+  nesterov: True
+  decay: 0.001
+

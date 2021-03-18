@@ -1,0 +1,26 @@
+load_main_model: true
+model:
+  type: resnet50
+dataset: imagenet
+aug: randaugment
+augmentation_search_space: fixed_standard # they used 224 x 244
+randaug:
+  N: 0
+  M: 0
+  weights: [0.0,1.0]
+cutout: 0
+batch: 64
+gpus: 32
+epoch: 270
+lr: .2
+lr_schedule:
+  type: 'resnet'
+  warmup:
+    multiplier: 4
+    epoch: 3
+optimizer:
+  type: sgd
+  nesterov: True # not in original
+  decay: 0.0001
+  clip: 0
+

@@ -1,0 +1,22 @@
+all_workers_use_the_same_batches: true
+model:
+  type: shakeshake26_2x96d
+dataset: cifar10
+cutout: 16
+aug: randaugment
+augmentation_search_space: wide_standard
+randaug:
+  N: 0
+  M: 0    # from appendix
+  weights: [0.0,1.0]
+
+gpus: 8
+batch: 128
+epoch: 600
+lr: 0.2
+lr_schedule:
+  type: 'cosine'
+optimizer:
+  type: sgd
+  nesterov: True
+  decay: 1.0e-4

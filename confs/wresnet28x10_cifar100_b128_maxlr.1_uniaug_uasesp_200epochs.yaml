@@ -1,0 +1,23 @@
+model:
+  type: wresnet28_10
+dataset: cifar100
+aug: randaugment
+randaug:
+  N: 0
+  M: 0    # from appendix
+cutout: 16
+batch: 128
+gpus: 1
+augmentation_search_space: uniaug
+epoch: 200
+lr: 0.05
+lr_schedule:
+  type: 'cosine'
+  warmup:
+    multiplier: 2
+    epoch: 5
+optimizer:
+  type: sgd
+  nesterov: True
+  decay: 0.0005
+
