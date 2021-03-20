@@ -1,6 +1,6 @@
 # Trivial Augment
 
-This is the official implementation of TrivialAugment, as was used for the paper.
+This is the official implementation of TrivialAugment (https://arxiv.org/abs/2103.10158), as was used for the paper.
 We distribute this implementation with two main use cases in mind.
 Either you only use our (re-)implementetations of practical augmentation methods or you start off with our full codebase.
 
