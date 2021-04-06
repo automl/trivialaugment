@@ -41,7 +41,7 @@ Our recommendation is to use the default `fixed_standard` search space for very 
 ## Use Our Full Codebase
 Clone this directory and `cd` into it.
 ```
-git clone ANONYMIZED/trivialaugment
+git clone automl/trivialaugment
 cd trivialaugment
 ```
 Install a fitting PyTorch version for your setup with GPU support,
