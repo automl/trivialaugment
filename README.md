@@ -35,6 +35,7 @@ will change the augmentation space to only ever apply cutout with a large width 
 The 2 here gives indications in how many strength levels the strength ranges of the augmentation space should be divided.
 If an augmentation space includes `sample_pairing`, you need to specify a set of images with which to pair before each step:
 `aug_lib.blend_images = [LIST OF PIL IMAGES]`.
+Our recommendation is to use the standard `fixed_standard` search space for very cheap setups, like Wide-Resnet-40-2, and to use `wide_standard` for all other setups.
 
 ## Use Our Full Codebase
 Clone this directory and `cd` into it.
