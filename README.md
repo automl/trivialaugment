@@ -36,7 +36,7 @@ The 2 here gives indications in how many strength levels the strength ranges of 
 If an augmentation space includes `sample_pairing`, you need to specify a set of images with which to pair before each step:
 `aug_lib.blend_images = [LIST OF PIL IMAGES]`. 
 
-Our recommendation is to use the default `fixed_standard` search space for very cheap setups, like Wide-Resnet-40-2, and to use `wide_standard` for all other setups by calling `aug_lib.set_augmentation_space('wide_standard',31)`.
+Our recommendation is to use the default `fixed_standard` search space for very cheap setups, like Wide-Resnet-40-2, and to use `wide_standard` for all other setups by calling `aug_lib.set_augmentation_space('wide_standard',31)` before the start of training.
 
 ## Use Our Full Codebase
 Clone this directory and `cd` into it.
