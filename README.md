@@ -1,6 +1,6 @@
 
 
-# Trivial Augment
+# TrivialAugment
 
 This is the official implementation of TrivialAugment (https://arxiv.org/abs/2103.10158), as was used for the paper.
 TrivialAugment is a super simple, but state-of-the-art performing, augmentation algorithm.
