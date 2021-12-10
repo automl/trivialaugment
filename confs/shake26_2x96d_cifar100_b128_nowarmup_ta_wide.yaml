@@ -1,0 +1,20 @@
+model:
+  type: shakeshake26_2x96d
+dataset: cifar100
+cutout: 16
+batch: 128
+gpus: 1
+epoch: 1800
+lr: 0.01
+aug: randaugment
+augmentation_search_space: wide_standard
+randaug:
+  N: 0
+  M: 0    # from appendix
+  weights: [0.0,1.0]
+lr_schedule:
+  type: 'cosine'
+optimizer:
+  type: sgd
+  nesterov: True
+  decay: 0.001
