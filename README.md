@@ -66,3 +66,22 @@ Since in the current literature we rarely found confidence intervals, we share o
 
 > This repository uses code from https://github.com/ildoonet/pytorch-randaugment and from https://github.com/tensorflow/models/tree/master/research/autoaugment.
 
+## Citation
+
+If you use TrivialAugment in scientific publications, we would appreciate a citation of the following paper:
+
+**TrivialAugment: Tuning-free Yet State-of-the-Art Data Augmentation**  
+*Samuel Müller and Frank Hutter*  
+ICCV 2021 oral  
+
+[Link](https://openaccess.thecvf.com/content/ICCV2021/html/Muller_TrivialAugment_Tuning-Free_Yet_State-of-the-Art_Data_Augmentation_ICCV_2021_paper.html) to publication.
+```
+@InProceedings{Muller_2021_ICCV,
+    author    = {M\"uller, Samuel G. and Hutter, Frank},
+    title     = {TrivialAugment: Tuning-Free Yet State-of-the-Art Data Augmentation},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {774-782}
+}
+```
