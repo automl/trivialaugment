@@ -5,7 +5,7 @@
 This is the official implementation of TrivialAugment (https://arxiv.org/abs/2103.10158), as was used for the paper.
 TrivialAugment is a super simple, but state-of-the-art performing, augmentation algorithm.
 
-<img src="https://user-images.githubusercontent.com/9828297/155092401-c85f6e36-76a2-4989-b7c4-706704b12600.png" alt="overview of method" width="600"/>
+<img src="https://user-images.githubusercontent.com/9828297/155092858-c8fd382e-562d-4305-b0d6-f3404cab80f3.png" alt="overview of method" width="600"/>
 
 We distribute this implementation with two main use cases in mind.
 Either you only use our (re-)implementetations of practical augmentation methods or you start off with our full codebase.
