@@ -47,7 +47,7 @@ cd trivialaugment
 ```
 Install a fitting PyTorch version for your setup with GPU support,
 as our implementation only support setups with at least one CUDA device and
-install our requirements:
+install our requirements, we used python 3.8 and pytorch 1.5.0 for our experiments:
 ```
 pip install -r requirements.txt
 # Install a pytorch version, in many setups this has to be done manually, see pytorch.org
