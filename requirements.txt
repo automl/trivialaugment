@@ -13,3 +13,4 @@ requests
 torch
 torchvision
 Pillow
+tensorboard
