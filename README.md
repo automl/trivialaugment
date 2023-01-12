@@ -64,7 +64,7 @@ For logs and metrics use a `tensorboard` with the `logs` directory or use our `a
 Since in the current literature we rarely found confidence intervals, we share our implementation in `evaluation_tools.py`.
 
 
-> This repository uses code from https://github.com/ildoonet/pytorch-randaugment and from https://github.com/tensorflow/models/tree/master/research/autoaugment.
+
 
 ## Citation
 
@@ -85,3 +85,7 @@ ICCV 2021 oral
     pages     = {774-782}
 }
 ```
+
+## Shoutouts
+
+This repository uses code from https://github.com/ildoonet/pytorch-randaugment and from https://github.com/tensorflow/models/tree/master/research/autoaugment.
