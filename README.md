@@ -11,8 +11,9 @@ We distribute this implementation with two main use cases in mind.
 Either you only use our (re-)implementetations of practical augmentation methods or you start off with our full codebase.
 
 ## Use TrivialAugment and Other Methods in Your Own Codebase
-If you are using PyTorch and need a quick solution, you might use the `TrivialAugment` implementation in torchvision: https://pytorch.org/vision/main/generated/torchvision.transforms.TrivialAugmentWide.html.
-In the general case we recommend to simply copy over the file `aug_lib.py` to your codebase.
+If you are using PyTorch and need a quick solution, you might use the `TrivialAugmentWide` implementation in torchvision: https://pytorch.org/vision/main/generated/torchvision.transforms.TrivialAugmentWide.html.
+
+If you want more control, we recommend to simply copy over the file `aug_lib.py` to your codebase.
 You can now instantiate the augmenters `TrivialAugment`, `RandAugment` and `UniAugment` like this:
 ```
 augmenter = aug_lib.TrivialAugment()
